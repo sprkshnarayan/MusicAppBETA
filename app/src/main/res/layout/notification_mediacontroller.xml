@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:padding="10dip">
+
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:weightSum="1">
+
+              <TextView
+                  android:id="@+id/notify_song_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_alignParentLeft="true"
+                  android:gravity="center"
+                  android:singleLine="true"
+                  android:text="dummy file"
+                  android:textColor="#ffff11"
+                  android:layout_gravity="top" />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="top"
+              android:orientation="horizontal"
+              android:weightSum="1">
+
+
+
+              <ImageButton
+                  android:id="@+id/notify_btn_previous"
+                  android:layout_width="40dp"
+                  android:layout_height="30dp"
+                  android:layout_marginLeft="100dp"
+                  android:background="@drawable/prev"
+                  />
+
+              <ImageButton
+                  android:id="@+id/notify_btn_pause"
+                  android:layout_width="40dp"
+
+                  android:layout_marginLeft="5dp"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/new_pause"
+                  android:layout_weight="0.01" />
+              <ImageButton
+                  android:id="@+id/notify_btn_next"
+                  android:layout_width="40dp"
+                  android:layout_marginLeft="5dp"
+                  android:layout_height="30dp"
+                  android:background="@drawable/next"
+                  />
+              <Button
+                  android:id="@+id/notify_btn_stop"
+                  android:layout_width="28dp"
+                  android:layout_height="28dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginLeft="40dp"
+                  android:background="@drawable/stop"
+
+                  android:textColor="#ffff11"
+                  android:textStyle="bold" />
+
+
+          </LinearLayout>
+
+
+
+
+
+
+      </LinearLayout>
+
+</LinearLayout>

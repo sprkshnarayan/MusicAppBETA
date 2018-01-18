@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.surajprakash.musicapp_beta.ActivityDisplaySongs">
+
+    <RelativeLayout
+        android:id="@+id/relative_btn_import"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_import_files"
+        android:background="#00ffffff"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:text="Import song"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linear_list_imported_files"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true">
+        <EditText
+            android:id="@+id/editText"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:id="@+id/list_songs_actimport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#000000"
+            android:dividerHeight="1dip"
+            >
+
+        </ListView>
+        <MediaController
+            android:id="@+id/mediaController1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            ></MediaController>
+      <android.support.design.widget.CoordinatorLayout
+          android:layout_height="match_parent"
+          android:layout_width="match_parent"></android.support.design.widget.CoordinatorLayout>
+      <android.support.design.widget.FloatingActionButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|end"
+          android:layout_margin="@dimen/fab_margin"
+          />
+
+
+          />
+
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+

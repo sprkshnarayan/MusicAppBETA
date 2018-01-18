@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/sortByTitle_id"
+        android:title="Sort By Title"
+
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item android:id="@+id/sortBySongName_id"
+        android:title="sort By SongName"
+
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item android:id="@+id/sortByDuration_id"
+        android:title="Sort By Duration"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item android:id="@+id/sortByArtist_id"
+        android:title="Sort By Artist"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item android:id="@+id/sortByAlbum_id"
+        android:title="Sort By Album"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/loop_id"
+        android:title="loop"
+        android:icon="@drawable/ic_loop_white_48dp"
+        app:showAsAction="always"
+        ></item>
+
+
+    <item
+        android:id="@+id/random_id"
+        android:title="random"
+        android:icon="@drawable/ic_shuffle_white_48dp"
+        app:showAsAction="always"
+        ></item>
+
+
+
+    <item
+        android:id="@+id/search_id"
+        android:title="search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+     ></item>
+
+</menu>
